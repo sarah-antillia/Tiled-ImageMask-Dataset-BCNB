@@ -127,7 +127,7 @@ from BCNB-master dataset.<br>
 
 </pre>
 
-For example, an sample image and mask files can be split into a lot of 512x512 tiles as shown below:<br>
+For example, an image and mask files can be split into a lot of 512x512 tiles as shown below:<br>
 <hr>
 <table>
 <tr>
