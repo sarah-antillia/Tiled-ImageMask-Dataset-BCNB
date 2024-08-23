@@ -55,10 +55,9 @@ publisher={Frontiers}
 <br>
 
 <h3>2. Create master dataset</h3>
-Please visit the Dataset Page, and download WSIs.
+Please visit the Dataset Page; 
 <a href="https://bupt-ai-cz.github.io/BCNB/">https://bupt-ai-cz.github.io/BCNB/</a><br>
-
-The WSIs dataset contains 1058 jpg image files, and json annotatioin files.<br>
+ and download WSIs, which contains 1058 jpg image files and json annotatioin files.<br>
 
 <pre>
 ./WSIs
