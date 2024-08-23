@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# 2024/08/23
+BCNB-master/
+Tiled-BCNB-ImageMask-Dataset/
+Tiled-BCNB-ImageMask-Dataset.zip
+Tiled-BCNB-master/
+WSIs/
+
 # Distribution / packaging
 .Python
 build/
