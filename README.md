@@ -83,7 +83,7 @@ ImageMaskDatasetGenerator.py
 <pre>
 python ImageMaskDatasetGenerator.py
 </pre>
-If you would like specify a shrink_ratio on the command line, please run the command as shown below.<br>
+If you would like to specify a shrink_ratio on the command line, please run the command as shown below.<br>
 <pre>
 python ImageMaskDatasetGenerator.py 0.2
 </pre>

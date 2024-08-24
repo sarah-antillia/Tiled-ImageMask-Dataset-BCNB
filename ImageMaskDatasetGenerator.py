@@ -116,7 +116,7 @@ if __name__ == "__main__":
     images_dir = "./WSIs/"
     jsons_dir  = "./WSIs/"
 
-    output_dir = "./BCNB-master"
+    output_dir = "E:./BCNB-master"
     if os.path.exists(output_dir):
       shutil.rmtree(output_dir)
     os.makedirs(output_dir)
