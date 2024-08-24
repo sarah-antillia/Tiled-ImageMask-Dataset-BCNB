@@ -18,6 +18,7 @@
 
 
 import os
+import sys
 os.environ["OPENCV_IO_MAX_IMAGE_PIXELS"] = pow(2,40).__str__()
 import shutil
 import cv2
@@ -32,7 +33,7 @@ import traceback
 class ImageMaskDatasetGenerator:
 
   def __init__(self, images_dir, jsons_dir, output_dir, shrink_ratio=0.1):
-     self.images_dir = images_dir,
+     self.images_dir = images_dir
      self.jsons_dir  = jsons_dir
      self.output_dir = output_dir
      self.SHRINK_RATIO = shrink_ratio
@@ -104,6 +105,14 @@ class ImageMaskDatasetGenerator:
 
 if __name__ == "__main__":
   try:
+    shrink_ratio = 0.1
+    if len(sys.argv) == 2:
+       shrink_ratio = eval(sys.argv[1])
+    if shrink_ratio <0 or  shrink_ratio >0.4:
+      error = "Invalid shrink_ratio " + str(shrink_ratio)
+      raise Exception(error)
+    print("---shrink_ratio {}".format(shrink_ratio))
+    input("OK: ENTER, ABORT: CTRL/C")        
     images_dir = "./WSIs/"
     jsons_dir  = "./WSIs/"
 
@@ -112,8 +121,6 @@ if __name__ == "__main__":
       shutil.rmtree(output_dir)
     os.makedirs(output_dir)
     
-    shrink_ratio= 0.1
-
     generator = ImageMaskDatasetGenerator(images_dir,  
                                           jsons_dir, 
                                           output_dir,
