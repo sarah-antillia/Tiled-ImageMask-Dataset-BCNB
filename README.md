@@ -1,6 +1,8 @@
-<h2>Tiled-ImageMask-Dataset-BCNB (2024/08/23)</h2>
+<h2>Tiled-ImageMask-Dataset-BCNB (Updated: 2024/08/25)</h2>
 <li>2024/08/24: Fixed a bug in ImageMaskDatasegGenerator.py</li>
 <li>2024/08/24: Modified ImageMaskDatasegGenerator.py to be able to take a command line parameter to specify a shrink_ratio.<br>
+<li>2024/08/25: Uploaded Enhanced Version <a href="https://drive.google.com/file/d/1h5c1UeHNZmcqfvnym9bxmDhtYaao94G8/view?usp=sharing">
+Tiled-BCNB-ImageMask-Dataset-V2.zip</a> to the google drive .<br>
 
 </li>
 <br>
@@ -9,10 +11,24 @@ The dataset used here has been taken from the web-site <a href="https://bcnb.gra
 <br><br>
 
 <b>Download Tiled-ImageMask-Dataset</b><br>
-You can download our dataset from the google drive 
+You can download our datasets from the google drive:<br>
+<b>1. Basic Version (shrink_ratio=0.1):</b><br> 
 <a href="https://drive.google.com/file/d/1yHPYPiSIRPgs36iAu8TwLOA0gRO_VLhC/view?usp=sharing">
 Tiled-BCNB-ImageMask-Dataset.zip</a>
 <br>
+<img src="./Tiled-BCNB-ImageMask-Dataset_Statistics.png" width="480" height="auto"><br>
+
+<br>
+
+<b>2. Enhanced Version (shrink_ratio=0.2)</b><br>
+
+<a href="https://drive.google.com/file/d/1h5c1UeHNZmcqfvnym9bxmDhtYaao94G8/view?usp=sharing">
+Tiled-BCNB-ImageMask-Dataset-V2.zip</a>
+<br>
+<img src="./Tiled-BCNB-ImageMask-Dataset-V2_Statistics.png" width="480" height="auto"><br>
+
+<br>
+
 <br>
 <h3>1. Dataset Citation</h3>
 The original dataset used here was taken from the following web-site 
